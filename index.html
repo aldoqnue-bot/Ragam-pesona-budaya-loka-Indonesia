@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesona Budaya Lokal Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1>Pesona Budaya Lokal Indonesia</h1>
+                <ul class="nav-menu">
+                    <li><a href="#pengenalan">Beranda</a></li>
+                    <li><a href="#fitur-budaya">Budaya</a></li>
+                    <li><a href="#galeri-foto">Galeri</a></li>
+                    <li><a href="#destinasi">Destinasi</a></li>
+                    <li><a href="#kuliner">Kuliner</a></li>
+                    <li><a href="#rencana">Rencana</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1>Jelajahi Keindahan Budaya Nusantara</h1>
+            <p>Temukan pesona tradisi, kuliner, dan destinasi wisata Indonesia yang tak tertandingi.</p>
+            <a href="#destinasi" class="cta-button">Mulai Jelajah</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="pengenalan">
+            <h2>✨ Selamat Datang</h2>
+            <p>Indonesia, negara kepulauan terbesar di dunia, adalah rumah bagi lebih dari 1.300 suku bangsa dengan kekayaan budaya yang tak tertandingi. Dari ujung barat Aceh hingga timur Papua, setiap daerah memiliki adat istiadat unik yang mencerminkan sejarah, nilai-nilai spiritual, dan interaksi dengan alam. Situs ini didedikasikan untuk melestarikan dan memperkenalkan warisan lokal yang mempesona, seperti upacara adat, seni pertunjukan, dan kearifan lokal yang telah diwariskan turun-temurun.</p>
+        </section>
+        <section id="fitur-budaya">
+            <h2>📜 Contoh Budaya</h2>
+            <div class="budaya-item">
+                <h3>Tari Tradisional</h3>
+                <img src="foto tarian tradisional.jpg" alt="Tari Tradisional Indonesia" class="budaya-img">
+                <p>Setiap daerah memiliki tarian khas yang menceritakan sejarah atau ritual tertentu, seperti Tari Kecak dari Bali yang menggambarkan pertempuran epik antara kebaikan dan kejahatan. Tari ini melibatkan gerakan-gerakan ritmis yang disertai dengan suara "cak" dari para penari, mencerminkan kekuatan spiritual dan keberanian masyarakat Bali dalam melawan roh jahat. Tari Kecak biasanya dilakukan di pura-pura atau tempat suci, sebagai bagian dari upacara keagamaan Hindu Bali.</p>
+                <button class="btn-detail" data-target="modal-tari">Pelajari Lebih Lanjut</button>
+            </div>
+            <div class="budaya-item">
+                <h3>Kuliner Nusantara</h3>
+                <img src="foto makanan lokal.jpg" alt="Kuliner Nusantara Indonesia" class="budaya-img">
+                <p>Dari Sabang sampai Merauke, kelezatan rempah-rempah menciptakan hidangan unik yang ikonik, seperti Rendang dari Sumatera Barat yang telah diakui dunia sebagai salah satu makanan terenak. Rendang adalah daging sapi yang dimasak dengan santan dan rempah-rempah selama berjam-jam hingga empuk dan kering, sering disajikan dalam acara-acara penting sebagai simbol kemewahan dan persatuan keluarga. Proses memasak rendang melibatkan teknik pengeringan yang membuatnya tahan lama tanpa refrigerasi.</p>
+                <button class="btn-detail" data-target="modal-kuliner">Pelajari Lebih Lanjut</button>
+            </div>
+            <div class="budaya-item">
+                <h3>Rumah Adat</h3>
+                <img src="rumah adat.jpg" alt="Rumah Adat Indonesia" class="budaya-img">
+                <p>Arsitektur tradisional yang mencerminkan kearifan lokal dalam menghadapi alam, seperti Rumah Gadang dari Minangkabau yang dirancang untuk tahan gempa dengan atap melengkung.</p>
+                <button class="btn-detail" data-target="modal-rumah">Pelajari Lebih Lanjut</button>
+            </div>
+        </section>
+
+        <section id="galeri-foto">
+            <h2>🖼️ Galeri Foto Budaya Lokal</h2>
+            <div class="galeri-container">
+                <div class="galeri-item">
+                    <img src="wayang kulit.jpg" alt="Wayang Kulit Jawa" class="galeri-img">
+                    <p>Wayang Kulit Jawa: Seni pertunjukan bayangan yang menggunakan boneka kulit, menceritakan epik Ramayana dan Mahabharata, sering digunakan untuk pendidikan moral dan hiburan.</p>
+                </div>
+                <div class="galeri-item">
+                    <img src="borobudur.jpg" alt="Candi Borobudur" class="galeri-img">
+                    <p>Candi Borobudur: Candi Buddha terbesar di dunia, dibangun pada abad ke-9, melambangkan perjalanan spiritual menuju pencerahan dengan relief yang menggambarkan ajaran Buddha.</p>
+                </div>
+                <div class="galeri-item">
+                    <img src="angklung sunda.jpg" alt="Angklung Sunda" class="galeri-img">
+                    <p>Angklung Sunda: Alat musik bambu dari Jawa Barat, dimainkan dengan cara digoyang, menghasilkan melodi harmonis, sering digunakan dalam upacara adat dan pertunjukan seni.</p>
+                </div>
+                <div class="galeri-item">
+                    <img src="toraja.jpg" alt="Rumah Tongkonan Toraja" class="galeri-img">
+                    <p>Rumah Tongkonan Toraja: Rumah adat suku Toraja yang berbentuk perahu terbalik, melambangkan perjalanan hidup, digunakan untuk upacara kematian dan ritual adat yang kompleks.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="interaktif">
+            <h2>💡 Interaktif</h2>
+            <p>Klik tombol di bawah untuk melihat pesan acak tentang Budaya Indonesia!</p>
+            <button id="tombol-pesan">Tampilkan Pesan</button>
+            <p id="output-pesan"></p>
+
+            <h3>🧠 Kuis Budaya Indonesia</h3>
+            <div id="kuis-container">
+                <div id="pertanyaan"></div>
+                <div id="pilihan"></div>
+                <button id="tombol-jawab">Jawab</button>
+                <div id="hasil-kuis"></div>
+            </div>
+        </section>
+
+        <section id="destinasi">
+            <h2>🗺️ Destinasi Wisata Indonesia</h2>
+            <div class="destinasi-filters">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="jawa">Jawa</button>
+                <button class="filter-btn" data-filter="sumatera">Sumatera</button>
+                <button class="filter-btn" data-filter="bali">Bali & Nusa Tenggara</button>
+                <button class="filter-btn" data-filter="kalimantan">Kalimantan</button>
+                <button class="filter-btn" data-filter="sulawesi">Sulawesi</button>
+                <button class="filter-btn" data-filter="papua">Papua</button>
+            </div>
+            <div class="destinasi-container">
+                <div class="destinasi-card" data-category="jawa">
+                    <img src="borobudur.jpg" alt="Borobudur" class="destinasi-img">
+                    <div class="destinasi-info">
+                        <h3>Yogyakarta - Borobudur</h3>
+                        <p>Candi Buddha terbesar di dunia yang dibangun pada abad ke-9. Situs warisan dunia UNESCO ini memiliki lebih dari 2.600 relief yang menceritakan ajaran Buddha. Kunjungi saat sunrise untuk pengalaman spiritual yang tak terlupakan.</p>
+                        <span class="destinasi-type">Budaya</span>
+                    </div>
+                </div>
+                <div class="destinasi-card" data-category="bali">
+                    <img src="pantai bali.jpg" alt="Pantai Bali" class="destinasi-img">
+                    <div class="destinasi-info">
+                        <h3>Bali - Pulau Dewata</h3>
+                        <p>Pulau dengan ribuan pura, pantai berpasir putih, dan budaya Hindu yang masih hidup. Dari Ubud yang artistik hingga pantai Kuta yang ramai, Bali menawarkan pengalaman wisata yang beragam dari yoga hingga surfing.</p>
+                        <span class="destinasi-type">Alam & Budaya</span>
+                    </div>
+                </div>
+                <div class="destinasi-card" data-category="sumatera">
+                    <img src="rumah gadang.jpg" alt="Rumah Gadang" class="destinasi-img">
+                    <div class="destinasi-info">
+                        <h3>Sumatera Barat - Minangkabau</h3>
+                        <p>Daerah dengan arsitektur rumah Gadang yang unik, Danau Maninjau yang indah, dan kuliner legendaris seperti rendang. Rasakan adat istiadat matrilineal dan nikmati keindahan alam pegunungan.</p>
+                        <span class="destinasi-type">Budaya & Kuliner</span>
+                    </div>
+                </div>
+                <div class="destinasi-card" data-category="jawa">
+                    <img src="gunung bromo.jpg" alt="Gunung Bromo" class="destinasi-img">
+                    <div class="destinasi-info">
+                        <h3>Jawa Timur - Gunung Bromo</h3>
+                        <p>Gunung berapi aktif yang menawarkan sunrise spektakuler di atas lautan pasir. Naik kuda atau jeep untuk mencapai puncak dan saksikan fenomena alam yang luar biasa di tengah kabut pagi.</p>
+                        <span class="destinasi-type">Alam</span>
+                    </div>
+                </div>
+                <div class="destinasi-card" data-category="sulawesi">
+                    <img src="toraja.jpg" alt="Toraja" class="destinasi-img">
+                    <div class="destinasi-info">
+                        <h3>Sulawesi Selatan - Toraja</h3>
+                        <p>Daerah dengan rumah Tongkonan yang unik, upacara kematian yang megah, dan budaya megalitik. Jelajahi lembah yang hijau dan pelajari tradisi yang telah berusia ribuan tahun.</p>
+                        <span class="destinasi-type">Budaya</span>
+                    </div>
+                </div>
+                <div class="destinasi-card" data-category="papua">
+                    <img src="raja ampat.jpg" alt="Raja Ampat" class="destinasi-img">
+                    <div class="destinasi-info">
+                        <h3>Papua - Raja Ampat</h3>
+                        <p>Surga bawah laut dengan 1.500 lebih pulau kecil. Tempat terbaik untuk diving dan snorkeling dengan keanekaragaman hayati laut terbesar di dunia. Rasakan kedamaian pulau-pulau terpencil.</p>
+                        <span class="destinasi-type">Alam</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kuliner">
+            <h2>🍜 Kuliner Nusantara</h2>
+            <div class="kuliner-section">
+                <h3>10 Makanan Wajib Coba</h3>
+                <div class="kuliner-grid">
+                    <div class="kuliner-item">
+                        <img src="rendang.jpg" alt="Rendang" class="kuliner-img">
+                        <h4>Rendang (Sumatera Barat)</h4>
+                        <p>Daging sapi yang dimasak santan dan rempah selama berjam-jam.</p>
+                    </div>
+                    <div class="kuliner-item">
+                        <img src="gudeg.jpg" alt="Nasi Gudeg" class="kuliner-img">
+                        <h4>Nasi Gudeg (Yogyakarta)</h4>
+                        <p>Nasi dengan gudeg nangka muda, krecek, dan sambal krecek.</p>
+                    </div>
+                    <div class="kuliner-item">
+                        <img src="ayam kaliwang.jpg" alt="Ayam Taliwang" class="kuliner-img">
+                        <h4>Ayam Taliwang (NTB)</h4>
+                        <p>Ayam bakar khas Lombok dengan bumbu pedas dan gurih.</p>
+                    </div>
+                    <div class="kuliner-item">
+                        <img src="sate madura.jpg" alt="Sate Madura" class="kuliner-img">
+                        <h4>Sate Madura (Jawa Timur)</h4>
+                        <p>Sate ayam atau kambing dengan bumbu kacang khas Madura.</p>
+                    </div>
+                    <div class="kuliner-item">
+                        <img src="pempek.jpg" alt="Pempek Palembang" class="kuliner-img">
+                        <h4>Pempek Palembang (Sumatera Selatan)</h4>
+                        <p>Ikan tenggiri yang digiling dan digoreng, disajikan dengan cuko.</p>
+                    </div>
+                    <div class="kuliner-item">
+                        <img src="babi guling.jpg" alt="Babi Guling" class="kuliner-img">
+                        <h4>Babi Guling (Bali)</h4>
+                        <p>Babi utuh yang dipanggang dengan bumbu tradisional Bali.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tips-section">
+                <h3>Tips Makan seperti Lokal</h3>
+                <ul>
+                    <li>Gunakan tangan kanan untuk makan (di beberapa daerah)</li>
+                    <li>Cicipi semua lauk sebelum menambah bumbu</li>
+                    <li>Tanyakan rekomendasi makanan khas daerah setempat</li>
+                    <li>Jangan ragu untuk bertanya bahan dan cara membuatnya</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="rencana">
+            <h2>📅 Rencana Perjalanan</h2>
+            <div class="itinerary-container">
+                <div class="itinerary-card">
+                    <h3>3 Hari di Bali</h3>
+                    <div class="itinerary-day">
+                        <h4>Hari 1: Ubud</h4>
+                        <p>Pura Saraswati, Tegallalang Rice Terrace, Ubud Art Market</p>
+                    </div>
+                    <div class="itinerary-day">
+                        <h4>Hari 2: Pantai</h4>
+                        <p>Pantai Kuta, Tanah Lot, Jimbaran Seafood</p>
+                    </div>
+                    <div class="itinerary-day">
+                        <h4>Hari 3: Budaya</h4>
+                        <p>Tari Kecak, Pura Besakih, Souvenir Shopping</p>
+                    </div>
+                </div>
+                <div class="itinerary-card">
+                    <h3>5 Hari di Jawa Timur</h3>
+                    <div class="itinerary-day">
+                        <h4>Hari 1-2: Surabaya</h4>
+                        <p>Tugu Pahlawan, House of Sampoerna, Rawon Setan</p>
+                    </div>
+                    <div class="itinerary-day">
+                        <h4>Hari 3: Malang</h4>
+                        <p>Gunung Bromo, Candi Singosari, Apel Malang</p>
+                    </div>
+                    <div class="itinerary-day">
+                        <h4>Hari 4-5: Batu</h4>
+                        <p>Jatim Park, Museum Angkut, Coban Rondo Waterfall</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>📖 Blog & Cerita Perjalanan</h2>
+            <div class="blog-container">
+                <article class="blog-post">
+                    <img src="borobudur.jpg" alt="Borobudur" class="blog-img">
+                    <div class="blog-content">
+                        <h3>Menguak Misteri Borobudur: Perjalanan Spiritual</h3>
+                        <p class="blog-excerpt">Borobudur bukan sekadar candi, tapi sebuah kitab batu yang menceritakan perjalanan manusia menuju pencerahan. Setiap reliefnya menyimpan filosofi Buddha yang mendalam...</p>
+                        <a href="#" class="read-more">Baca Selengkapnya</a>
+                    </div>
+                </article>
+                <article class="blog-post">
+                    <img src="foto tarian tradisional.jpg" alt="Tari Kecak" class="blog-img">
+                    <div class="blog-content">
+                        <h3>Tari Kecak: Suara Jiwa Bali</h3>
+                        <p class="blog-excerpt">Di balik gerakan ritmis dan suara "cak" yang memekakkan telinga, tersimpan kekuatan spiritual yang luar biasa. Cerita di balik tarian sakral ini...</p>
+                        <a href="#" class="read-more">Baca Selengkapnya</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Budaya Nusantara. Dibuat oleh kelompok 5 XI-1 smatarunabrawijaya
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- Modals for Detailed Explanations -->
+    <div id="modal-tari" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Tari Tradisional Indonesia</h2>
+            <p>Tari tradisional Indonesia adalah ekspresi seni yang kaya akan nilai budaya, sejarah, dan spiritualitas. Setiap daerah memiliki tarian unik yang menceritakan cerita rakyat, ritual keagamaan, atau peristiwa penting.</p>
+            <h3>Contoh Tari Kecak</h3>
+            <p>Tari Kecak berasal dari Bali dan menggambarkan pertempuran antara kebaikan dan kejahatan. Penari-penari duduk melingkar sambil mengeluarkan suara "cak" yang ritmis, menciptakan suasana mistis. Tari ini sering dilakukan di pura-pura sebagai bagian dari upacara keagamaan Hindu Bali.</p>
+            <h3>Fakta Menarik</h3>
+            <ul>
+                <li>Indonesia memiliki lebih dari 3.000 jenis tarian tradisional.</li>
+                <li>Banyak tarian yang telah diakui UNESCO sebagai Warisan Budaya Takbenda.</li>
+                <li>Tari sering digunakan untuk pendidikan moral dan pelestarian budaya.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modal-kuliner" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Kuliner Nusantara</h2>
+            <p>Kuliner Indonesia adalah perpaduan cita rasa rempah-rempah yang unik, mencerminkan keragaman budaya dan geografis negara ini. Dari ujung barat hingga timur, setiap daerah memiliki hidangan khas yang sarat akan sejarah dan tradisi.</p>
+            <h3>Rendang: Ikon Kuliner Indonesia</h3>
+            <p>Rendang berasal dari Sumatera Barat dan telah diakui sebagai salah satu makanan terenak di dunia oleh CNN. Proses memasaknya yang lama (berjam-jam) membuat daging empuk dan kering, tahan lama tanpa refrigerasi. Rendang sering disajikan dalam acara penting sebagai simbol kemewahan dan persatuan keluarga.</p>
+            <h3>Fakta Menarik</h3>
+            <ul>
+                <li>Indonesia memiliki lebih dari 5.000 jenis makanan tradisional.</li>
+                <li>Rempah-rempah seperti kunyit, jahe, dan kemiri adalah kunci cita rasa nusantara.</li>
+                <li>Banyak hidangan yang memiliki nilai filosofis dan ritual.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modal-rumah" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Rumah Adat Indonesia</h2>
+            <p>Rumah adat Indonesia adalah karya arsitektur yang mencerminkan kearifan lokal dalam beradaptasi dengan lingkungan. Setiap rumah memiliki desain unik yang disesuaikan dengan iklim, bahan lokal, dan nilai budaya masyarakatnya.</p>
+            <h3>Rumah Gadang Minangkabau</h3>
+            <p>Rumah Gadang dari Sumatera Barat dirancang dengan atap melengkung yang tahan gempa. Bentuknya yang unik mencerminkan filosofi masyarakat Minangkabau yang matrilineal. Rumah ini sering digunakan untuk acara adat dan pertemuan keluarga besar.</p>
+            <h3>Fakta Menarik</h3>
+            <ul>
+                <li>Setiap provinsi memiliki setidaknya satu jenis rumah adat.</li>
+                <li>Banyak rumah adat yang menggunakan bahan alami seperti kayu, bambu, dan atap alang-alang.</li>
+                <li>Arsitektur rumah adat sering melambangkan kosmologi dan nilai-nilai spiritual.</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
